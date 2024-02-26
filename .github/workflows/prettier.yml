@@ -3,7 +3,7 @@ name: Prettier
 on:
     workflow_dispatch:
     push:
-        branches: changeset-release/*
+        branches: changeset-release/main
     
 
 jobs:
