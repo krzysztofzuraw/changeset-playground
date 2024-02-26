@@ -15,8 +15,9 @@ jobs:
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v3
+        with:
+            token: ${{ secrets.PAT }}
 
-        # Tags are fetched for Changeset to distinguish from new ones while running `changeset tag`
       - name: Git fetch tags
         run: git fetch --tags origin
 
@@ -41,7 +42,7 @@ jobs:
           publish: pnpm github:release
           createGithubReleases: true
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PAT }}
 
       - name: Trigger other workflow
         if: steps.changesets.outputs.hasChangesets == 'false'
