@@ -40,6 +40,8 @@ jobs:
           commit: Release Adyen App
           publish: pnpm github:release
           createGithubReleases: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Trigger other workflow
         if: steps.changesets.outputs.hasChangesets == 'false'
