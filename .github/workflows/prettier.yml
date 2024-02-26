@@ -1,8 +1,10 @@
 name: Prettier
 
 on:
-    workflow_dispatch
-
+    workflow_dispatch:
+    push:
+        branches: changeset-release/*
+    
 
 jobs:
     prettier:
