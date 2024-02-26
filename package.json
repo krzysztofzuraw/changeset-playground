@@ -10,7 +10,8 @@
   "author": "Krzysztof Żuraw (https://krzysztofzuraw.com/)",
   "license": "MIT",
   "devDependencies": {
-    "@changesets/cli": "^2.27.1"
+    "@changesets/cli": "^2.27.1",
+    "prettier": "3.2.5"
   },
   "packageManager": "pnpm@8.15.4"
 }
