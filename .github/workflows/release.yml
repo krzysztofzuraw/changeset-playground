@@ -24,8 +24,8 @@ jobs:
         uses: changesets/action@v1
         id: changesets
         with:
-          title: Release to npm
-          commit: Release to npm
+          title: Release
+          commit: Release
           publish: "pnpm publish:ci"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
