@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "publish": "echo \"Info: no publish specified\" && exit 0"
+    "publish:ci": "echo \"Info: no publish specified\" && exit 0"
   },
   "keywords": [],
   "author": "Krzysztof Żuraw (https://krzysztofzuraw.com/)",
