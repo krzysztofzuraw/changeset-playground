@@ -44,5 +44,6 @@ jobs:
         with:
           issue-number: ${{ steps.changesets.outputs.pullRequestNumber }}
           comment-id: ${{ steps.fc.outputs.comment-id }}
+          edit-mode: replace
           body: |
             Body comment
