@@ -1,5 +1,15 @@
 # changesets-playground
 
+## 0.2.3
+
+### Patch Changes
+
+- 58043c7: Another one
+- 07718a5: Another link
+- c50db0a: Hmm
+- af506ac: dd
+- 53b940e: Again
+
 ## 0.2.2
 
 ### Patch Changes
