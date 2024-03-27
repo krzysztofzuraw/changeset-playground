@@ -27,6 +27,8 @@ jobs:
           title: Release
           commit: Release
           publish: "pnpm publish:ci"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Trigger other workflow
         if: steps.changesets.outputs.published == 'true'
