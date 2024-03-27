@@ -1,5 +1,11 @@
 # changesets-playground
 
+## 0.2.2
+
+### Patch Changes
+
+- 83248b8: Omg
+
 ## 0.2.1
 
 ### Patch Changes
