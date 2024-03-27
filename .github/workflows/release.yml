@@ -36,7 +36,7 @@ jobs:
         id: fc
         with:
           issue-number: ${{ steps.changesets.outputs.pullRequestNumber }}
-          body-includes: Body comment
+          body-includes: Link
 
       - name: Trigger other workflow
         if: steps.changesets.outputs.hasChangesets == 'true'
@@ -46,4 +46,4 @@ jobs:
           comment-id: ${{ steps.fc.outputs.comment-id }}
           edit-mode: replace
           body: |
-            Body comment
+            🔗 [Link](https://krzysztofzuraw.com)
