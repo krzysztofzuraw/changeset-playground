@@ -1,5 +1,11 @@
 # changesets-playground
 
+## 0.2.1
+
+### Patch Changes
+
+- 5de8683: Test
+
 ## 0.2.0
 
 ### Minor Changes
